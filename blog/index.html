@@ -1,0 +1,24 @@
+---
+layout: default
+title: QuickHAC Blog
+---
+
+<header>
+    <div class="bg"></div>
+    <div class="container">
+        <h1>BLOG</h1>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+    {% for post in site.posts %}
+        <div class="card">
+            <h2><a class="post" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <date>{{ post.date | date_to_string }}</date>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}">Continue reading &raquo;</a>
+        </div>
+    {% endfor %}
+    </div>
+</section>

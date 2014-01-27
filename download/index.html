@@ -1,0 +1,27 @@
+---
+layout: default
+title: QuickHAC ~ Downloads
+---
+
+<header>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="preview">
+            <img class="browser" src="img/preview-desktop.png" />
+        </div>
+    </div>
+</header>
+
+<section class="feature" id="downloads">
+	<div class="container">
+		<i class="ion-ios7-cloud-download"></i>
+		<h2>Download Quick<b>HAC</b></h2>
+		{% for download in site.data.downloads %}
+		<a class="download">
+			<i class="{{ download.icon }}"></i>
+			<span>Quick<b>HAC</b> for {{ download.platform }}</span>
+			<small>v{{ download.version }} ({{ download.date | date_to_string }})</small>
+		</a>
+		{% endfor %}
+	</div>
+</section>

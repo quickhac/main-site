@@ -1,0 +1,17 @@
+- platform: Chrome
+  version: 3.0.0
+  date: 2014-01-28 00:00:00 -0600
+  icon: ion-earth
+  enabled: No
+
+- platform: Android
+  version: 1.0
+  date: 2014-01-26 21:00:00 -0600
+  icon: ion-social-android
+  enabled: Yes
+
+- platform: iOS
+  version: 1.0
+  date: 2014-01-27 10:00:00 -0600
+  icon: ion-social-apple
+  enabled: No

@@ -1,0 +1,62 @@
+- title: Ingenious Design
+  hash: design
+  icon: ion-ios7-lightbulb
+  snippet: "A stunning and intuitive new interface to view and understand your grades."
+  description: "Version 3.0 of QuickHAC features an all-new gorgeous design, but we didn't just make it prettier. Every aspect of the user interface has been evaluated and all the unnecessary elements were eliminated. The result is a pure, functional design which not only looks superb, but is also easier to use."
+  images:
+    - title:
+      url: design1.png
+      inline: Yes
+    - title:
+      url: design2.png
+      inline: Yes
+    - title:
+      url: design3.png
+      inline: Yes
+
+- title: Multiple Students
+  hash: multistudent
+  icon: ion-ios7-people
+  snippet: "A simple and quick way to view grades for multiple students all from a single login."
+  description: "QuickHAC now supports multiple profiles, which makes switching between students a breeze. Also included is a *Guest Mode* that allows a friend to quickly check their grades on your computer without logging you out."
+  images:
+    - title: Multistudent selection
+      url: multistudent.png
+      inline: No
+
+- title: Grade Editing
+  hash: editing
+  icon: ion-ios7-compose
+  snippet: "See exactly how a different grade or an added grade could raise your average."
+  description: "Perhaps one of QuickHAC's most useful features is its ability to temporarily edit grades in order to see how they affect your overall average. You can change an old grade or add a new on to anticipate a score on an upcoming assignment or exam."
+  images:
+    - title: Grade editing
+      url: editing.png
+      inline: No
+
+- title: Visualizations
+  hash: visualizations
+  icon: ion-ios7-eye
+  snippet: "Powerful visualizations help you understand how grades impact your average."
+  description: "Understanding trends is a powerful tool to help you succeed. QuickHAC automatically creates stunning charts to help you make sense of your grades. With version 3.0, we've revolutionized what it means to be a student."
+  images:
+    - title: Visualizations
+      url: visualizations.png
+      inline: No
+
+- title: Blazing Speed
+  hash: speed
+  icon: ion-ios7-speedometer
+  snippet: "View grades faster than ever before thanks to many behind-the-scenes improvements."
+  description: "QuickHAC is the fastest method for students and parents to check grades at home or on the go. Our engineers have crafted a truly remarkable experience by reducing loading times without sacrificing features."
+  images:
+
+- title: GPA Calculator
+  hash: gpa
+  icon: ion-ios7-calculator
+  snippet: "Effortless, single-click access to your calculated Grade Point Average."
+  description: "Students are always wondering what their Grade Point Average is, as often times there is no easy way to find out. QuickHAC simplifies this tedious and often mysterious process."
+  images:
+    - title: GPA
+      url: gpa.png
+      inline: No

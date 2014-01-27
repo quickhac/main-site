@@ -1,0 +1,43 @@
+---
+layout: default
+title: QuickHAC
+---
+
+<header>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="preview">
+            <img class="browser" src="img/preview-desktop.png" />
+        </div>
+    </div>
+</header>
+
+<section id="overview">
+	<div class="container">
+		{% for feature in site.data.features %}
+		<div class="block">
+			<i class="{{ feature.icon }}"></i>
+			<h3>{{ feature.title }}</h3>
+			<p>{{ feature.snippet | markdownify }}</p>
+			<a href="#{{ feature.hash }}">Learn More</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+{% for feature in site.data.features %}
+<section class="feature" id="{{ feature.hash }}">
+	<div class="container">
+		<i class="{{ feature.icon }}"></i>
+		<h2>{{ feature.title }}</h2>
+		<p>{{ feature.description | markdownify }}</p>
+		{% for image in feature.images %}
+		<img src="img/{{ image.url }}" alt="{{ image.title }}" {% if image.inline %} class="inline" {% endif %} />
+		{% endfor %}
+	</div>
+</section>
+{% endfor %}
+
+<section class="feature" id="downloads">
+	{% include downloads.html %}
+</section>

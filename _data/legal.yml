@@ -1,0 +1,67 @@
+privacy: >
+    ## Privacy Policy
+
+    The QuickHAC website does not store any information on your computer. The Chrome extension and mobile apps, however, collect anonymous usage information so that we can better understand how people are using our apps. This will allow us to improve our user experience.
+
+terms: >
+    ## Terms of Service
+
+    This Agreement was last modified on 7 January 2014.
+
+    Please read these Terms of Service ("Agreement", "Terms of Service") carefully before using the QuickHAC Push Notifications Service ("the Service") operated by The QuickHAC Team ("us", "we", or "our"). This Agreement sets forth the legally binding terms and conditions for your use of the Service.
+
+    By accessing or using the Service in any manner, including, but not limited to, enabling the Service or registering your grade book accounts with the Service, you agree to be bound by these Terms of Service. Capitalized terms are defined in this Agreement.
+
+    ### Summary
+
+    The following is a non-legally-binding summary of the Agreement for your convenience.
+
+    * We will store our credentials and your device ID securely on our server in order to send push notifications.
+    * Your credentials and grades will not be shared with any third-party except as required by law.
+    * You may permanently delete your information from our server at any time.
+
+    ### User Provided Information
+
+    When enabling push notifications on the Service for a specific grade book username and password, these credentials are sent to the server over a secure connection. This combination of username and password ("the Credentials") are encrypted securely in the Service's database using an encryption key unique to your device. This protects the Credentials from being read by server administrators.
+
+    ### Automatically Collected Information
+
+    The Service generates a unique identifier for your device and stores it on the device securely in order to communicate with the Service and alter settings. This identifier is also stored with the Service, but is "hashed," converting it into a random string of characters.
+
+    ### Do third parties see and/or have access to information obtained by the Application?
+
+    No data provided to the Service is not provided to any third party, except as required by law, such as to comply with a subpoena, or similar legal process.
+
+    ### What are my opt-out rights?
+
+    You can stop all collection of data for a specific account by going to the Application's Settings, selecting "Notifications" and tapping "Delete" next to the account you wish to remove. If you wish to completely disassociate all accounts and destroy all personally identifiable information on the server permanently, go to the Notifications settings, and slide the "Enable Notifications" switch to the disabled position.
+
+    ### Data Retention Policy, Managing Your Information
+
+    We will retain the User Provided Information for as long as you use the application, and as long as it is installed on a device associated with your account through the generated unique identifier. If you uninstall the application or disable the Service, all your personally identifiable information, and any information tied to your device will be immediately and permanently deleted from our servers.
+
+    In addition, any information that is fetched periodically, as well as the Credentials you provide are stored on the server using industry-standard encryption, allowing them to only be decrypted with your device's unique identifier.
+
+    To provide the Service, the server utilizes your stored Credentials to fetch updated grades at a pre-determined time interval. These grades are converted into a format usable by the Service, then encrypted with your device's unique key. 
+
+    ### Security
+
+    We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect information we process and maintain. Please be aware that, although we endeavor provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches, and we are not responsible for any damage that may be caused through such breaches; however, we will do our best to ensure that your information is safe.
+
+    ### Termination
+
+    We may terminate your access to the Service, without cause or notice, which may result in the forfeiture and destruction of all information associated with you. All provisions of this Agreement that by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.
+
+    ### Governing Law
+
+    This Agreement (and any further rules, policies, or guidelines incorporated by reference) shall be governed and construed in accordance with the laws of Texas, United States, without giving effect to any principles of conflicts of law.
+
+    ### Changes To This Agreement
+
+    We reserve the right, at our sole discretion, to modify or replace these Terms by posting the updated terms on the Service, for example, through an Application Update. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms of Service.
+
+    Please review this Agreement periodically for changes. If you do not agree to any of this Agreement or any changes to this Agreement, do not use, access or continue to access the Service or discontinue any use of the Service immediately.
+
+    ### Contact Us
+
+    If you have any questions about this Agreement, please contact us through our website.
