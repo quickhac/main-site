@@ -4,16 +4,17 @@
 # TEAM
 
     Yash Aggarwal -- Developer -- @linuxfreak
-    Maxwell Ciotti -- Lead Designer -- @mdciotti
-    Tristan Seifert -- Intern???? -- 
+    Maxwell Ciotti -- Designer -- @mdciotti
+    Neil Patil -- Android Developer
+    Tristan Seifert -- iOS Developer
     Xuming Zeng -- CEO -- @xsznix
 
 # THANKS
 
-    RRISD?
+    Mike Beeson -- Google Inc. -- +MikeBeeson
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, SCSS
     jQuery, Modernizr
-    Ionicons
+    Ionicons, FontAwesome
