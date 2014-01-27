@@ -74,7 +74,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-.wrapper {
+.container {
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -85,7 +85,7 @@ nav {
 
 }
 
-nav .wrapper {
+nav .container {
 
 }
 
@@ -114,6 +114,7 @@ nav .wrapper {
     margin: 0 1em 1em 1em;
     white-space: nowrap;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .download:hover {
@@ -127,7 +128,8 @@ nav .wrapper {
     line-height: 1;
     float: left;
     margin-right: 0.2em;
-    background: none;
+    background: inherit !important;
+    cursor: inherit;
 }
 .download span {
     margin-top: 0.3em;
@@ -225,7 +227,7 @@ section {
     text-align: center;
 }
 
-section .wrapper, footer .wrapper {
+section .container, footer .container {
     border-top: thin solid #cccccc;
 }
 
@@ -235,7 +237,7 @@ section#overview {
     /*background-color: #eeeeee;*/
 }
 
-section#overview .wrapper {
+section#overview .container {
     border-top: none;
 }
 
@@ -286,15 +288,14 @@ section .block a:hover {
     color: #44ccfd;
 }
 
-section.feature i {
+section.feature > .container > i {
     font-size: 64px;
-    color: #00aced;
+    color: #ffffff;
     /*display: block;*/
     margin: -40px auto 0 auto;
-    background-color: #ffffff;
+    background-color: #00aced;
     border-radius: 50%;
     padding: 8px;
-    border: thin solid #cccccc;
 
 }
 
@@ -376,7 +377,7 @@ section.copyright {
     display: none;
 }
 
-section.copyright .wrapper {
+section.copyright .container {
     /*border-top: ;*/
 }
 
@@ -418,12 +419,12 @@ section.copyright .wrapper {
         width: 100%;
     }
 
-    nav .wrapper {
+    nav .container {
         padding-top: 0;
         padding-bottom: 0;
     }
 
-    nav .wrapper::after {
+    nav .container::after {
         content: '';
         display: block;
         clear: both;
@@ -485,7 +486,7 @@ section.copyright .wrapper {
         font-size: 2em;
     }
 
-    .wrapper {
+    .container {
         width: 768px;
         /*padding: 16px;*/
     }
@@ -519,7 +520,7 @@ section.copyright .wrapper {
         width: 192px;
     }
 
-    footer .wrapper::after {
+    footer .container::after {
         content: '';
         display: block;
         clear: both;
@@ -528,7 +529,7 @@ section.copyright .wrapper {
 
 @media only screen and (min-width: 1140px) {
 
-    .wrapper {
+    .container {
 
     }
 }

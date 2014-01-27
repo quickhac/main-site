@@ -1,0 +1,13 @@
+<div class="container">
+	<i class="ion-ios7-cloud-download"></i>
+	<h2>Download Quick<b>HAC</b></h2>
+	{% for download in site.data.downloads %}
+	{% if download.enabled %}
+	<a class="download">
+		<i class="{{ download.icon }}"></i>
+		<span>Quick<b>HAC</b> for {{ download.platform }}</span>
+		<small>v{{ download.version }} &mdash; {{ download.date | date_to_string }}</small>
+	</a>
+	{% endif %}
+	{% endfor %}
+</div>

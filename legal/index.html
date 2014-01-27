@@ -1,0 +1,25 @@
+---
+layout: default
+title: QuickHAC ~ Legal
+---
+
+<header>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="preview">
+            <img class="browser" src="img/preview-desktop.png" />
+        </div>
+    </div>
+</header>
+
+<section class="feature" id="privacy">
+	<div class="container">
+		{{ site.data.legal.privacy | markdownify }}
+	</div>
+</section>
+
+<section class="feature" id="terms">
+	<div class="container">
+		{{ site.data.legal.terms | markdownify }}
+	</div>
+</section>
