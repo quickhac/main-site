@@ -1,0 +1,17 @@
+---
+layout: default
+title: QuickHAC ~ FAQ
+---
+
+{% include header.html bg="faq.png" title="FAQ" subtitle="Frequently Asked Questions" %}
+
+<section>
+    <div class="container">
+    {% for question in site.data.faq %}
+        <div class="card">
+            <h2>{{ question.q | markdownify }}</h2>
+            <p>{{ question.a | markdownify }}</p>
+        </div>
+    {% endfor %}
+    </div>
+</section>

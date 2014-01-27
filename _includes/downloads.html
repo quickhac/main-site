@@ -3,7 +3,7 @@
 	<h2>Download Quick<b>HAC</b></h2>
 	{% for download in site.data.downloads %}
 	{% if download.enabled %}
-	<a class="download">
+	<a class="download" href="{{ download.url }}">
 		<i class="{{ download.icon }}"></i>
 		<span>Quick<b>HAC</b> for {{ download.platform }}</span>
 		<small>v{{ download.version }} &mdash; {{ download.date | date_to_string }}</small>

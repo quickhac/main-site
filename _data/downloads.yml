@@ -8,6 +8,7 @@
   version: 1.0
   date: 2014-01-26 21:00:00 -0600
   icon: ion-social-android
+  url: https://play.google.com/store/apps/details?id=com.patil.quickhac
   enabled: Yes
 
 - platform: iOS

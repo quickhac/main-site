@@ -1,0 +1,12 @@
+<header>
+    <div class="bg" style="background-image: url('/img/{{ include.bg }}');"></div>
+    <div class="container">
+        <h1>{{ include.title }}</h1>
+        <p>{{ include.subtitle }}</p>
+        {% if include.preview %}
+        <div class="preview">
+        	<img src="/img/preview-desktop.png" />
+        </div>
+        {% endif %}
+    </div>
+</header>

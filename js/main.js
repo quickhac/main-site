@@ -24,7 +24,13 @@ Parallax.prototype = {
 
 $(function () {
 
-	new Parallax($("header .bg"), {
+	new Parallax($("header .container, nav"), {
+		inertia: -0.5,
+		beginEffect: 0,
+		endEffect: $("header").height() + $("nav").height()
+	});
+
+	new Parallax($("header .preview, header .bg"), {
 		inertia: 0.5,
 		beginEffect: 0,
 		endEffect: $("header").height() + $("nav").height()

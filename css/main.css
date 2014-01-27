@@ -82,11 +82,19 @@ textarea {
 
 nav {
     background-color: #444444;
-
+    z-index: 100;
 }
 
 nav .container {
 
+}
+
+nav #logo {
+    margin: -0.25em 0;
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+    float: left;
 }
 
 .title {
@@ -205,10 +213,18 @@ header .bg {
     background-size: cover;
     background-position: center -48px;
     /*background-attachment: fixed;*/
+    background-image: url('/img/home.jpg');
+}
+
+header h1 {
+    font-size: 128px;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 header .preview {
     margin: 48px auto 0 auto;
+    padding: 0 16px;
 }
 
 header .preview img {
@@ -461,11 +477,6 @@ section.copyright .container {
 
     nav ul li {
         display: inline;
-    }
-
-    header .bg {
-        /*background-image: url('../img/blue.png');*/
-        background-image: url('../img/wallpaper-2785411.jpg');
     }
 
     section .block {
