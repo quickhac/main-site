@@ -2,8 +2,7 @@
 layout: post
 title: "QuickHAC for Android is Now Available!"
 date: 2014-01-26 20:00:00
-category: release
-tags: mobile android
+tags: mobile android release
 ---
 
 After weeks of hard work, we bring you exciting news...

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: QuickHAC for iOS is Now Available!
-category: release
-tags: ios
+date: 2014-01-29 10:00:00
+tags: release ios
 ---
 
 We promised more goodies, and we’re delivering! QuickHAC for iOS, written by Tristan Seifert from Westwood, is now available for devices running iOS 7.
