@@ -24,7 +24,7 @@ title: QuickHAC FAQ
 		{% for question in site.data.faq %}
 		<div class="card" id="{{question.hash}}">
 			<h2>{{ question.q }}</h2>
-			<p>{{ question.a | markdownify }}</p>
+			{{ question.a | markdownify }}
 		</div>
 		{% endfor %}
 	</div>
