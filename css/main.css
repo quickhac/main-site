@@ -119,12 +119,12 @@ nav #logo {
     display: inline-block;
     padding: 0.5em 1em 0.5em 0.5em;
     border-radius: 120px;
-    font-size: 1.3em;
+    font-size: 0.75em;
     font-weight: 100;
     text-decoration: none;
     line-height: 1;
     text-align: left;
-    margin: 0 1em 1em 1em;
+    margin: 1em 0.5em;
     white-space: nowrap;
     overflow: hidden;
     cursor: pointer;
@@ -236,6 +236,11 @@ header p {
     font-weight: 100;
     text-transform: lowercase;
     letter-spacing: 0.2pc;
+}
+
+header .downloads {
+    text-align: center;
+    margin-top: 3em;
 }
 
 header .preview {
@@ -397,6 +402,8 @@ section.cards-bg {
 
 .card time {
     float: right;
+    /*margin-top: -1em;*/
+    line-height: 1;
     /*position: absolute;*/
     /*top: 32px;*/
     /*right: 32px;*/
@@ -492,7 +499,7 @@ footer .copyright {
 @media only screen and (min-width: 480px) {
 
     .download {
-        font-size: 1.6em;
+        font-size: 1em;
     }
 
     nav {
@@ -560,7 +567,7 @@ footer .copyright {
 @media only screen and (min-width: 768px) {
 
     .download {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .container {

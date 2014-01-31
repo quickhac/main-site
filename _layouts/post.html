@@ -1,8 +1,16 @@
 ---
 layout: default
+title: QuickHAC Blog
 ---
 
-{% include header.html bg="blog.png" title="Blog" %}
+<header>
+    <div class="bg" style="background-image: url('/img/blog.png');"></div>
+    <div class="container">
+        <h1>Blog</h1>
+        <p></p>
+    </div>
+</header>
+
 <section>
 	<div class="container">
 		<article>
@@ -12,7 +20,7 @@ layout: default
 				By <span class="author">{{page.author}}</span> on
 				{% endif %}
 				<time datetime="{{page.date | date_to_xmlschema}}">
-					{{ page.date | date_to_string }}
+					{{ page.date | date_to_long_string }}
 				</time>
 			</p>
 

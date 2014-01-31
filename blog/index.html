@@ -9,8 +9,8 @@ title: QuickHAC Blog
     <div class="container">
     {% for post in site.posts %}
         <div class="card">
-            <h2>{{ post.title }}</h2>
             <time datetime="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_string }}</time>
+            <h2>{{ post.title }}</h2>
             <p>{{ post.excerpt }}</p>
             <a href="{{ post.url }}">Continue reading &raquo;</a>
         </div>

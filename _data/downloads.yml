@@ -13,6 +13,7 @@
 
 - platform: iOS
   version: 1.0
-  date: 2014-01-27 10:00:00 -0600
+  date: 2014-01-29 10:00:00 -0600
   icon: ion-social-apple
-  enabled: No
+  url: https://itunes.apple.com/us/app/quickhac/id789578366
+  enabled: Yes

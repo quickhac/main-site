@@ -3,7 +3,17 @@ layout: default
 title: QuickHAC
 ---
 
-{% include header.html bg="home.jpg" preview="Yes" %}
+<header>
+    <div class="bg" style="background-image: url('/img/home.jpg');"></div>
+    <div class="container">
+    	<div class="downloads">
+    	{% include downloads.html %}
+    	</div>
+        <div class="preview">
+        	<img src="/img/preview-desktop.png" />
+        </div>
+    </div>
+</header>
 
 <section id="overview">
 	<div class="container">
@@ -32,5 +42,9 @@ title: QuickHAC
 {% endfor %}
 
 <section class="feature" id="downloads">
+	<div class="container">
+	<i class="ion-ios7-cloud-download"></i>
+	<h2>Download Quick<b>HAC</b></h2>
 	{% include downloads.html %}
+	</div>
 </section>
