@@ -1,13 +1,24 @@
 ---
 layout: default
 ---
-<article>
-	<div class="container">
-		<h2>{{ page.title }}</h2>
-		<p class="meta">{{ page.date | date_to_string }}</p>
 
-		<div class="post">
-		{{ content }}
-		</div>
+{% include header.html bg="blog.png" title="Blog" %}
+<section>
+	<div class="container">
+		<article>
+			<h1>{{ page.title }}</h1>
+			<p class="meta">
+				{% if page.author %}
+				By <span class="author">{{page.author}}</span> on
+				{% endif %}
+				<time datetime="{{page.date | date_to_xmlschema}}">
+					{{ page.date | date_to_string }}
+				</time>
+			</p>
+
+			<div class="post">
+			{{ content }}
+			</div>
+		</article>
 	</div>
-</article>
+</section>

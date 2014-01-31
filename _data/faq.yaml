@@ -1,8 +1,11 @@
-- q: "Is my data secure?"
-  a: "We take many precautions to ensure the safe handling of any information that QuickHAC handles. Unless you are on a device running iOS and enable push notifications, we never upload or store your information anywhere other than your own device. All information traffic is handled directly from your device to the school district's grade system. These precautions prevent cybercriminals from breaking into databases or spying on communications to steal your data. If you don't trust our words, take a look at our [source code](https://github.com/quickhac/qhac-common) on GitHub. You can also take a look at our [privacy policy](/privacy)."
+    - hash: "data-security"
+      q: "Is my data secure?"
+      a: "We take many precautions to ensure the safe handling of any information that QuickHAC handles. Unless you are on a device running iOS and enable push notifications, we never upload or store your information anywhere other than your own device. All information traffic is handled directly from your device to the school district's grade system. These precautions prevent cybercriminals from breaking into databases or spying on communications to steal your data. If you don't trust our words, take a look at our [source code](https://github.com/quickhac/qhac-common) on GitHub. You can also take a look at our [privacy policy](/privacy)."
 
-- q: "Can I have push notifications?"
-  a: "Not really. Unfortunately this feature will never be fully supported due to a technical limitation that we cannot control. We're very sorry because we'd like these too. The best we can do is have a polling interval that checks for updated grades on a regular basis. While we call this feature push notifications on iOS, they are not actually being pushed to your devices as soon as something changes, but rather when a change is detected."
+    - hash: "push-notifications"
+      q: "Can I have push notifications?"
+      a: "Not really. Unfortunately this feature will never be fully supported due to a technical limitation that we cannot control. We're very sorry because we'd like these too. The best we can do is have a polling interval that checks for updated grades on a regular basis. While we call this feature push notifications on iOS, they are not actually being pushed to your devices as soon as something changes, but rather when a change is detected."
 
-- q: "Is QuickHAC available for [insert device here]?"
-  a: "Our current target platforms include the Chrome browser for Mac and PC, Android devices with version 4.0 (Ice Cream Sandwich) or later, and iPhone,  iPod touch, or iPad running iOS 7 or later. If you aren't sure if your device is supported or want to request support for a different device, send us an email at [???@quickhac.com](mailto:???@quickhac.com)."
+    - hash: "device-support"
+      q: "Is QuickHAC available for [insert device here]?"
+      a: "Our current target platforms include the Chrome browser for Mac and PC, Android devices with version 4.0 (Ice Cream Sandwich) or later, and iPhone,  iPod touch, or iPad running iOS 7 or later. If you aren't sure if your device is supported or want to request support for a different device, send us an email at [???@quickhac.com](mailto:???@quickhac.com)."
