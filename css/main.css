@@ -260,7 +260,7 @@ section, footer {
     background-color: #ffffff;
 }
 
-section p {
+section p, section ul, section ol {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.01pc;
@@ -436,7 +436,7 @@ section.legal .container {
     
 }
 
-section.legal p, section.legal h2, section.legal h3 {
+section.legal .card {
     text-align: justify;
     max-width: 512px;
     margin: 1em auto;
